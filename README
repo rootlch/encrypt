@@ -1,0 +1,7 @@
+This package provide 2 things.
+
+1) A go lib to encrypt data with the XOR algorithm.
+
+2) A terminal command called lock to encrypt any file with the given key.
+Running lock on an encrypted file with the correct key will decrypt it.
+(Note: If you've forgotten the key it is highly unlikely that you will be able to decrypt the file.)

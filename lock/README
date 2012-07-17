@@ -1,0 +1,22 @@
+The lock is a simple terminal command that encrypts a file with the XOR algorithm with the given key.
+
+In order to work properly you'll need to specify 2 flags.
+
+1) -file
+The absolute path to the file
+
+2) -key
+The key to encrypt the file with
+
+
+Further there is one optional flag that you could specify
+
+1) -overw
+This flag takes either a 1 or 0. If set to 1 it will overwrite the current file with the encrypted data.
+
+otherwise the default behavior is to create a new file in the same directory but the file is suffixed with "xor"
+
+
+Use example:
+
+lock -file="/Users/sometext.txt" -key="test"
